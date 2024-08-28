@@ -5,8 +5,8 @@ executable(
   'src/main.cpp',
   'src/database.hpp',
   'src/database.cpp',
-  'src/helloworld.h',
-  'src/helloworld.cpp',
+  'src/main_window.hpp',
+  'src/main_window.cpp',
   dependencies: [
     dependency('gtkmm-4.0'),
     dependency('sqlite3')

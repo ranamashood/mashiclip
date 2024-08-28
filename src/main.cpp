@@ -1,5 +1,5 @@
 #include "database.hpp"
-#include "helloworld.h"
+#include "main_window.hpp"
 #include <cstring>
 #include <gtkmm/application.h>
 #include <iostream>
@@ -19,6 +19,6 @@ int main(int argc, char *argv[]) {
   } else {
     auto app = Gtk::Application::create();
 
-    return app->make_window_and_run<HelloWorld>(argc, argv);
+    return app->make_window_and_run<MainWindow>(argc, argv);
   }
 }
